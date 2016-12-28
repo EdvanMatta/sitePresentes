@@ -1,30 +1,35 @@
 <!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
 <html>
     <head>
         <title>Página de perfil</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
     </head>
     <body>
-        <header>
-            logomarca
-        </header>
-        <nav>
-            menu
-        </nav>
-        <section>
-            região de foto do perfil
-        </section>
-        <section>
-            região de dados cadastrais
-        </section>
-        <section>
-            região de produtos da lista
-        </section>
+        <div class="container">
+            <header class="row clearfix">
+                logomarca
+            </header>
+            <nav class="row clearfix">
+                menu
+            </nav>
+            <div class="row clearfix">
+                <section class="col-md-6">
+                    região de foto do perfil
+                </section>
+                <section class="col-md-6">
+                    região de dados cadastrais
+                </section>
+            </div>
+            <div class="row clearfix">
+                <section class="col-md-6">
+                    região de produtos da lista
+                </section>
+                <section class="col-md-6">
+                    indicação para amigos
+                </section>
+            </div>
+        </div>
     </body>
 </html>
